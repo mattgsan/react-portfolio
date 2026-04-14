@@ -1,5 +1,5 @@
 {
-  "homepage": "http://mattgsan.com",
+  "homepage": "https://mattgsan.com",
   "name": "react-portfolio",
   "private": false,
   "version": "0.0.0",
@@ -13,7 +13,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "framer-motion": "^11.3.19",
+    "framer-motion": "^11.3.21",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-icons": "^5.2.1"
@@ -29,6 +29,7 @@
     "eslint-plugin-react-refresh": "^0.4.7",
     "gh-pages": "^6.1.1",
     "postcss": "^8.4.40",
+    "rollup": "^4.60.0",
     "tailwindcss": "^3.4.7",
     "vite": "^5.3.4"
   }

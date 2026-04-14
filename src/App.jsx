@@ -2,9 +2,9 @@ import Contact from "./components/Contact";
 import Projects from "./components/Projects";
 import Experience from "./components/Experience";
 import Technologies from "./components/Technologies";
-import About from "./components/About";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
+import Licenses from "./components/Licenses";
 
 const App = () => {
   return (
@@ -16,9 +16,10 @@ const App = () => {
       <div className="container mx-auto px-8">
         <Navbar />
         <Hero />
-        <Technologies />
         <Experience />
+        <Licenses />
         <Projects />
+        <Technologies />
         <Contact />
       </div>
     </div>
